@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="am.ysu.ysum.HomeActivity"
+    android:background="@android:color/white">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="105dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/ysu"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:hint="Username"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:hint="Password"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="304dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="361dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="409dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
