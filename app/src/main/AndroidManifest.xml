@@ -19,7 +19,7 @@
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:label=""
+            android:label="YSU"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
             public void run() {
-                Intent i3 = new Intent(MainActivity.this, LoginActivity.class);
+                Intent i3 = new Intent(MainActivity.this, HomeActivity.class);
                 startActivity(i3);
                 finish();
             }
